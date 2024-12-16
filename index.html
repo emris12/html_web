@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Store</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .cart a {
+    color: white;
+    background-color: #ff5722;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .shop-now-btn {
+    background-color: white;
+    color: #ff5722;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .shop-now-btn:hover {
+    background-color: #e64a19;
+    color: white;
+}
+
+/* Product Categories Section */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.category {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category h3 {
+    margin: 15px 0;
+}
+
+.category a {
+    color: #ff5722;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.category a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+</style>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Home</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productpage.html">Product</a></li>
+                <li><a href="shoppingcart.html">Shoppingcart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="#">WELCOME</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to CR7 Attire!</h2>
+        <p>Exclusive deals on the best products.</p>
+        <a href="#" class="shop-now-btn">Shop Now</a>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section class="categories">
+        <h2>Shop by Categories</h2>
+        <div class="category">
+            <img src="alnasar.jpg" alt="Electronics">
+            <h3>Shoes</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="manu.jpg" alt="Clothing">
+            <h3>Clothing</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="realmad.jpg" alt="Accessories">
+            <h3>Others</h3>
+            <a href="#">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
